@@ -1,4 +1,4 @@
-## Packages vs Plugins
+## What is the difference between package and plugin in Flutter?
 
 # Introduction
 This is the 3rd article of this vs that series in Flutter. Recently, I wrote an article on how you can publish your own package on pub dev. Someone asked me how do you know it is a package and not a plugin, so I thought of writing a small article on the same. A lot of people often get confused between both of them So let's see what both of them are and what are the differences.
