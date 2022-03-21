@@ -81,6 +81,7 @@ In the onPressed function, we will add this line of code to make things working
 liquidController.animateToPage(page: 2); // 0 indexing
 ```
 Now every time when you tap on the FAB, you will be taken to page 2. Instead of the dragging widget in the right, you can create two buttons, next and previous, and use the liquid controller to navigate between the pages.
+![22-03-21-09-23-35_AdobeCreativeCloudExpress.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1647835284034/0EtJsiplQ.gif)
 
 # Conclusion
 So with this, we conclude our article on how to add a cool transition animation to your Flutter app. Play around with the package and build some cool onboarding screens. I hope that you learned something new today.
