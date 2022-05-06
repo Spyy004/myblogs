@@ -39,7 +39,7 @@ The app that we are going to build today needs a custom API. We won't be using a
 ![fluttflask.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651839092229/9t51pttYE.png align="left")
 
 # Authentication 🔒
-There are two ways to implement the authentication feature. One is using Google sign-in with Firebase and the second is to make use of the custom API endpoint to sign-up and log in the users. If you want to know how to implement the Sign in with Google feature in a Flutter app, then go read this article.
+There are two ways to implement the authentication feature. One is using Google sign-in with Firebase and the second is to make use of the custom API endpoint to sign-up and log in the users. If you want to know how to implement the Sign in with Google feature in a Flutter app, then go watch this [video tutorial](https://www.youtube.com/watch?v=aYA0uEtSMm0) made by me.
 
 Let's see how we can do authentication with our custom API.
 
