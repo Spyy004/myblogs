@@ -151,13 +151,15 @@ You can now try to integrate GetX into more complex projects. You can also try t
 GetX is not only about state management, it is also an excellent tool to manage your routing and inflate your UI components without any context.
 
 ## Route Management
-There are different routing methods provided by GetX like Get.to(), Get.off(), Get.offAll().
+There are different routing methods provided by GetX like Get.to(), Get.off(), Get.offAll(), Get.back().
 
 - Get.to() is used to just go from one page to another. So Get.to(Page2()) will take me to Page2. 
 
-- Get.off(Page2()) will remove all the previous stacks and just keep the Page2.
+- Get.back() is just used to go back to the previous screen. You can also pass back arguments by adding them as parameters in Get.back(par: "Your val").
 
-- Get.offAll(Page2()) is used to navigate to the next route, and receive or update data as soon as you return from it:
+- Get.off(Page2()) will remove the current page in the stack and just push the Page2.
+
+- Get.offAll(Page2()) is used to navigate to the next route, and remove all the pages currently present in the stack.
 
 ## Inflating the UI Components
 Generally, if you want to open a dialog or snack bar, you use a separate file that handles the common widgets and we also need to pass context to the class. But with GetX, we can simply create the UI component without using any context whatsoever. 
