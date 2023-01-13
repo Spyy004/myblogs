@@ -54,7 +54,7 @@ Once again, we will use our good old friend, "The counter app" to understand riv
 Update the state using the `Provider.of` method and calling `.read` and `.write`
 
 ```dart
-context.read(counterProvider.notifier).state++;  
+context.read(counterProvider.notifier).state++;
 ```
 
 This line is where all the magic is happening.
@@ -129,6 +129,71 @@ lib/
     
 * `providers.dart` is where you define all your providers, in this example, we have only one provider `counterProvider` but in a real-world app, you will have many more.
     
+
+## Building with Riverpod 2.0 way.
+
+Well, recently we got Riverpod 2.0 where we were introduced to Notifier and async Notifier. We will now see how we can build the same counter app, but with Notifier.
+
+`StateProvider` is ideal for managing and updating simple variables such as the counter-example shown above. However, if your state requires validation logic or you need to manage more complex objects, `StateProvider` may not be the best fit. In such cases, `StateNotifier` can be a good alternative. The new `Notifier` class is now recommended for more advanced scenarios.
+
+So our `counterProvider` will change into this
+
+```dart
+final counterProvider = NotifierProvider<Counter, int>(() {
+  return Counter();
+});
+```
+
+And this is how we will build our Counter class
+
+```dart
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+class Counter extends Notifier<int> {
+  @override
+  int build() {
+    return 0;
+  }
+
+  void increment() {
+    state++;
+  }
+}
+```
+
+It turns out that the `counterProvider` can be used in the `CounterWidget` without any modification, provided that the `counter.dart` file is imported.
+
+```dart
+class MyHomePage extends ConsumerWidget {
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final counter = ref.watch(counterProvider);
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              'You have pushed the button this many times:',
+            ),
+        Text(
+          '$counter',
+          style: Theme.of(context).textTheme.headline4,
+        ),
+            TextButton(onPressed: (){
+              ref.read(counterProvider.notifier).increment(); // the change
+            }, child: Text("Increment"))
+          ],
+        ),
+      ),
+    );
+  }
+}
+```
+
+## StateProvider vs Notifier
+
+For storing a simple state, `StateProvider` remains the most straightforward option. `Notifier` is more detailed but also more adaptable, as it allows us to include methods with intricate logic in our `Notifier` subclasses (similar to what we do with `StateNotifier`).
 
 ## ref.read() v s ref.watch()
 
