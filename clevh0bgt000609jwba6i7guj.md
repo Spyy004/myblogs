@@ -6,6 +6,7 @@ datePublished: Sun Mar 05 2023 14:10:18 GMT+0000 (Coordinated Universal Time)
 cuid: clevh0bgt000609jwba6i7guj
 slug: discovering-the-world-of-web-development-benefits-and-tips-to-begin
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678025359660/37258ff8-597d-48ef-a51e-d390ba4f58cf.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1678025438099/46f791b9-0cfe-4f94-a1fe-4c4b954fbd8e.png
 tags: programming, web-development, html5, beginners, wemakedevs
 
 ---
