@@ -1,5 +1,5 @@
 ---
-title: ""Scaling Strategies: Horizontal vs Vertical Scaling for Optimal Success""
+title: "Scaling Strategies: Horizontal vs Vertical Scaling for Optimal Success"
 seoTitle: "Scaling Strategies: Horizontal vs Vertical Scaling for Optimal Success"
 seoDescription: "We all love to think about building a system from scratch and implementing tons of features. As a beginner, it is easy to get overwhelmed by the "jargon""
 datePublished: Sat Mar 04 2023 16:58:39 GMT+0000 (Coordinated Universal Time)
