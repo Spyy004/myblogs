@@ -1,10 +1,10 @@
 ---
-title: "Stay Informed with Dev-Bytes: The Top News App for Professionals"
+title: "Stay Informed with DevBytes: The Top News App for Professionals"
 seoTitle: "Stay Informed with Dev-Bytes: The Top News App for Professionals"
 seoDescription: "In this article, I will discuss an innovative app that I have been using for the past few weeks and found to be incredibly useful. Although this discussion"
 datePublished: Wed Mar 22 2023 05:14:10 GMT+0000 (Coordinated Universal Time)
 cuid: clfj8cc6300050amf9ohz0zr5
-slug: stay-informed-with-dev-bytes-the-top-news-app-for-professionals
+slug: stay-informed-with-devbytes-the-top-news-app-for-professionals
 tags: news, blogging, programming, general-advice
 
 ---
