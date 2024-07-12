@@ -7,7 +7,7 @@ cuid: clyizcqpv000709mg3lco82j6
 slug: anidex-a-step-by-step-journey-to-building-an-animal-pokedex
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720805715903/cb681bfd-2cd4-4940-b375-4fbac5aac664.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720805790135/e7291e36-5a93-477e-9883-f8089cd6dbce.png
-tags: ai, programming, flutter, hashnode, frontend-development
+tags: ai, flutter, hashnode, frontend-development, aifortomorrow
 
 ---
 
