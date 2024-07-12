@@ -77,16 +77,16 @@ This is my user schema
 
 ```json
 {
-  "badges": ["String"],
-  "favorites": ["String"],
-  "firstName": "String",
-  "lastName": "String",
-  "phoneNumber": "String",
-  "profilePic": "String",
-  "scans": ["String"],
-  "createdAt": "timestamp"
+  "badges": ["string"],
+  "favorites": ["string"],
+  "firstName": "string",
+  "lastName": "string",
+  "phoneNumber": "string",
+  "profilePic": "string",
+  "scans": ["string"],
+  "createdAt": "timestamp",
+  "userId": "string",
 }
-
 ```
 
 This is my Scan schema
@@ -94,6 +94,7 @@ This is my Scan schema
 ```json
 {
   "imagePath": "string",
+   "scanId": "string",
   "scanData": {
     "animalIdentification": "string",
     "basicInformation": {
