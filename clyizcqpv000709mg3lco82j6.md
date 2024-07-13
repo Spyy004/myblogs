@@ -19,7 +19,9 @@ The project that I have built is Anidex. **Anidex is your Pokedex but for real-w
 
 GitHub Repo Link: [https://github.com/Spyyy004/anidex/](https://github.com/Spyyy004/anidex/tree/main)
 
-App Download Link: [https://github.com/Spyyy004/anidex/releases/download/1.0.0/anidex.apk](https://github.com/Spyyy004/anidex/releases/download/1.0.0/anidex.apk)
+App Download Link: [https://github.com/Spyyy004/anidex/releases/download/1.0.0/anidex.apk](https://github.com/Spyyy004/anidex/releases/download/1.0.0/anidex.apk)  
+  
+Website Link : [https://anidex.tech/](https://anidex.tech/)
 
 Let's see how I got the idea for the project, how I actually built it, the features it possesses, and what my future plans are.
 
